@@ -17,3 +17,11 @@ $player = $event->getPlayer();
     }
   }
 }
+#
+# Todo:
+# add staff command to enable and disable
+# add checker for if players are both in server
+#  add checker for if player who receives private message is clashing
+#  add checkers for signs
+#
+  #
