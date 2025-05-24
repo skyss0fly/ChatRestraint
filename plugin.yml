@@ -1,0 +1,17 @@
+name: ChatRestraint
+main: skyss0fly\ChatRestraint\Main
+version: 0.1.1
+api: 5.0.0
+author: skyss0fly
+description: A plugin that restricts interactions between certain players.
+
+commands:
+  chatrestraint:
+    description: Toggles the chat restraint system.
+    usage: /chatrestraint
+    permission: chatrestraint.use
+
+permissions:
+  chatrestraint.use:
+    description: Allows staff to toggle the chat restraint system.
+    default: op
